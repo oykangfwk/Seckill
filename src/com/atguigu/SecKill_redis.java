@@ -27,7 +27,7 @@ public class SecKill_redis {
         jedis.set("k1", "v1");
         System.out.println(jedis.ping());
         jedis.close();
-		
+        System.out.println("Test");
 
 	}
 
